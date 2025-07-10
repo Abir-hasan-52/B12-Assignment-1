@@ -9,6 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+ 
 .hero-section {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
@@ -19,8 +20,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding-top: 40px;
 }
 .logo {
@@ -52,15 +53,20 @@ button:hover {
   font-size: 30px;
   font-weight: 600;
 }
+ 
 .features-section {
   background-color: rgb(243, 246, 248);
+  
+  
 }
 .feature1 {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
-  padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
 }
 .feature1-content {
   display: flex;
@@ -91,7 +97,9 @@ button:hover {
 .feature2 {
   text-align: center;
   gap: 50px;
-  margin: 50px;
+  margin-top: 40px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 50px;
   background-color: #4e47ff1a;
   border-radius: 20px;
@@ -126,7 +134,9 @@ button:hover {
 .feature3{
     
     gap: 50px;
-    padding: 50px;
+     
+    margin-left: 200px;
+    margin-right: 200px;
      
 }
 .feature3-content{
@@ -158,6 +168,7 @@ button:hover {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 25px;
+    opacity: 60%;
 }
 .Review{
     display: flex;
@@ -175,9 +186,10 @@ button:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+     margin-top: 40px;
     gap:30px;
     border-radius: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
 .feature4-img{
@@ -196,4 +208,72 @@ button:hover {
 }
 .box4-content>.title{
     padding-top: 40px;
+}
+.feature-4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+     margin-left: 200px;
+     margin-right: 200px;
+     margin-top: 50px;
+     padding-bottom: 80px;
+}
+.from{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    /* gap:10px; */
+    font-weight: 700;
+}
+.from-title{
+    font-size: 100px;
+    font-weight: 700;
+
+}
+.btn{
+     width: 250px;
+}
+.label{
+    padding-top: 20px;
+}
+.input{
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 0;
+    background-color: #D6DDED;
+}
+.message{
+    height: 150px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-logo{
+    font-size: 100px;
+    font-weight: 900;
+    color: #4e47ff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.links{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+     
+}
+.links>a{
+    color: #8987A1;
+    text-decoration: none;
 }
