@@ -169,3 +169,31 @@ button:hover {
     font-size: medium;
     padding-top: 20px;
 }
+.feature4-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    gap:30px;
+    border-radius: 20px;
+
+}
+.feature4-img{
+    width: 600px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+     
+}
+.box4-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.box4-content>.title{
+    padding-top: 40px;
+}
