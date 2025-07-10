@@ -180,6 +180,17 @@ button:hover {
     font-size: medium;
     padding-top: 20px;
 }
+.review{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+
+}
+.review-img{
+    width: 50px;
+    border-radius: 50%;
+}
 .feature4-content{
     background-color: white;
     display: flex;
