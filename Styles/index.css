@@ -45,46 +45,79 @@ button:hover {
   transform: translateY(-2px);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.hero-content{
-    text-align: center;
-    color: #252432;
-    margin-top: 100px;
-    font-size: 30px;
-    font-weight: 600;
-     
+.hero-content {
+  text-align: center;
+  color: #252432;
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: 600;
 }
-.features-section{
-    background-color: rgb(243, 246, 248);
-     
+.features-section {
+  background-color: rgb(243, 246, 248);
 }
-.feature1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    padding:50px;
+.feature1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
 }
-.feature1-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+.feature1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.feature1-title{
-    font-size: 30px;
-    font-weight: 600;
-    color: #252432;
-    text-align: center;
+.feature1-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #252432;
+  text-align: center;
 }
-.feature1-content{
-    font-size: 20px;
-    color: #252432;
-    text-align: center;
+.feature1-content {
+  font-size: 20px;
+  color: #252432;
+  text-align: center;
 }
- .feature1-img{
-    width: 300px;
-    height: 300px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.feature1-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature2 {
+  text-align: center;
+  gap: 50px;
+  margin: 50px;
+  padding: 50px;
+  background-color: #4e47ff1a;
+  border-radius: 20px;
+}
+.feature2-content {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-top: 30px;
+}
+.box-content {
+  font-size: 80px;
+  color: #4e47ff;
+  font-weight: 700;
+}
+.box-title {
+  font-size: 20px;
+  font-weight: 400;
+  color: #00000080;
+  opacity: calc(50 / 100);
+  margin-top: 10px;
 }
