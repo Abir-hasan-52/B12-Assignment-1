@@ -4,6 +4,11 @@
   font-weight: 400;
   font-style: normal;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero-section {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
@@ -16,6 +21,7 @@
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
+  padding-top: 40px;
 }
 .logo {
   font-weight: 900;
@@ -46,4 +52,39 @@ button:hover {
     font-size: 30px;
     font-weight: 600;
      
+}
+.features-section{
+    background-color: rgb(243, 246, 248);
+     
+}
+.feature1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding:50px;
+}
+.feature1-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.feature1-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: #252432;
+    text-align: center;
+}
+.feature1-content{
+    font-size: 20px;
+    color: #252432;
+    text-align: center;
+}
+ .feature1-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
