@@ -244,8 +244,9 @@ button:hover {
 
 }
 .btn{
-     width: 250px;
+     width: 400px;
 }
+ 
 .label{
     padding-top: 20px;
 }
@@ -260,6 +261,10 @@ button:hover {
 .message{
     height: 150px;
     margin-bottom: 10px;
+    color: black;
+    opacity: 60%;
+    font-size: 18px;
+    padding-top: 10px;
 }
 .footer{
     background-color: white;
